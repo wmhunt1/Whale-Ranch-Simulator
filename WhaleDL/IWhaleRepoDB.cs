@@ -9,7 +9,7 @@ namespace WhaleDL
 {
     public interface IWhaleRepoDB
     {
-        Task<Facility> AddFacilityAsync(Facility newFacility);
+          Task<Facility> AddFacilityAsync(Facility newFacility);
         Task<Facility> DeleteFacilityAsync(Facility facility2BDeleted);
         Task<Facility> GetFacilityByIdAsync(int id);
         Task<Facility> GetFacilityByNameAsync(string name);

@@ -20,7 +20,7 @@ namespace WhaleBL
         Task<Food> DeleteFoodAsync(Food food2BDeleted);
         Task<Food> GetFoodByIdAsync(int id);
         Task<Food> GetFoodByNameAsync(string name);
-        Task<List<Food>> GetFoodsAsync();
+        Task<List<Food>> GetFoodAsync();
         Task<Paddock> UpdatePaddockAsync(Paddock paddock2BUpdated);
         Task<Paddock> AddPaddockAsync(Paddock newPaddock);
         Task<Paddock> DeletePaddockAsync(Paddock paddock2BDeleted);

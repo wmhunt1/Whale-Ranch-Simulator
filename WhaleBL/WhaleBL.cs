@@ -99,7 +99,7 @@ namespace WhaleBL
         {
             return await _repo.UpdatePaddockAsync(paddock2BUpdated);
         }
-        public async Task<Personality> AddPersonalityAsync(Personality newPersonality)
+         public async Task<Personality> AddPersonalityAsync(Personality newPersonality)
         {
             //Todo: Add BL
             return await _repo.AddPersonalityAsync(newPersonality);
@@ -155,7 +155,7 @@ namespace WhaleBL
         {
             return await _repo.UpdateRanchAsync(ranch2BUpdated);
         }
-        public async Task<Rancher> AddRancherAsync(Rancher newRancher)
+            public async Task<Rancher> AddRancherAsync(Rancher newRancher)
         {
             //Todo: Add BL
             return await _repo.AddRancherAsync(newRancher);
@@ -183,7 +183,7 @@ namespace WhaleBL
         {
             return await _repo.UpdateRancherAsync(rancher2BUpdated);
         }
-        public async Task<Species> AddSpeciesAsync(Species newSpecies)
+            public async Task<Species> AddSpeciesAsync(Species newSpecies)
         {
             //Todo: Add BL
             return await _repo.AddSpeciesAsync(newSpecies);
@@ -211,7 +211,7 @@ namespace WhaleBL
         {
             return await _repo.UpdateSpeciesAsync(species2BUpdated);
         }
-        public async Task<Toy> AddToyAsync(Toy newToy)
+          public async Task<Toy> AddToyAsync(Toy newToy)
         {
             //Todo: Add BL
             return await _repo.AddToyAsync(newToy);
