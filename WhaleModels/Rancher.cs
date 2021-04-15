@@ -6,5 +6,8 @@ namespace WhaleModels
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public double Money { get; set; }
+        public bool IsAdmin { get; set; }
+
     }
 }
