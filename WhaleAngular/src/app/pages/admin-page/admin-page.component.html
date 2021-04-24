@@ -1,21 +1,14 @@
 <h1>Admin Page</h1>
-<button routerLink="/main">Login as Player</button>
-<button routerLink="/">Logout</button>
+<button routerLink="/">Login as Player</button>
+<button routerLink="/login">Logout</button>
 <h2>My Whales</h2>
+
 <ul class="whales">
-    <li *ngFor="let whale of whales" 
+  <li *ngFor="let whale of whales"
     [class.selected]="whale === selectedWhale"
     (click)="onSelect(whale)">
-        <span class="badge">{{whale.id}}</span> {{whale.name}}
-    </li>
+    <span class="badge">{{whale.id}}</span> {{whale.name}}: {{whale.species}}
+  </li>
 </ul>
-<div *ngIf="selectedWhale">
 
-    <h2>{{selectedWhale.name | uppercase}} Details</h2>
-    <div><span>id: </span>{{selectedWhale.id}}</div>
-    <div>
-      <label for="whale-name">Whale name: </label>
-      <input id="whale-name" [(ngModel)]="selectedWhale.name" placeholder="name">
-    </div>
-  
-  </div>
+<app-whale-detail [whale]="selectedWhale"></app-whale-detail>

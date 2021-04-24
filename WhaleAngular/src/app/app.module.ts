@@ -8,6 +8,7 @@ import { AdminPageComponent } from './pages/admin-page/admin-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { FormsModule } from '@angular/forms';
+import { WhaleDetailComponent } from './components/whale-detail/whale-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     AdminPageComponent,
     NavBarComponent,
     MainPageComponent,
+    WhaleDetailComponent,
   ],
   imports: [
     BrowserModule,
