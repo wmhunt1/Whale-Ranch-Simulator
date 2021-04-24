@@ -9,6 +9,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { FormsModule } from '@angular/forms';
 import { WhaleDetailComponent } from './components/whale-detail/whale-detail.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { WhaleDetailComponent } from './components/whale-detail/whale-detail.com
     NavBarComponent,
     MainPageComponent,
     WhaleDetailComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
