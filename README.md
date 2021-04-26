@@ -15,3 +15,13 @@ Orc Whales - Names of Orcs
 Pilot Whale - Names of Pilots
 Pigmy - Whale
 * Wilbur, Babe, Snowball, Napolean
+
+* Pages
+    * Main Page
+        * Dashboard
+        * Farmer's Market
+        * Ranch
+        * Paddocks
+    * Admin Page
+    * Login Page
+        * If not logged in
