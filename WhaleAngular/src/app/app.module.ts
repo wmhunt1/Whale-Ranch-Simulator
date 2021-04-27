@@ -12,6 +12,7 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { StartRanchComponent } from './pages/start-ranch/start-ranch.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LogoComponent } from './components/logo/logo.component';
     AdminComponent,
     NavbarComponent,
     FooterComponent,
-    LogoComponent
+    LogoComponent,
+    StartRanchComponent
   ],
   imports: [
     BrowserModule,
