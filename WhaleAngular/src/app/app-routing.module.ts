@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AdminComponent } from './admin/admin.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { FarmersMarketComponent } from './farmers-market/farmers-market.component';
-import { LoginScreenComponent } from './login-screen/login-screen.component';
-import { PaddockViewComponent } from './paddock-view/paddock-view.component';
-import { RanchViewComponent } from './ranch-view/ranch-view.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { FarmersMarketComponent } from './pages/farmers-market/farmers-market.component';
+import { LoginScreenComponent } from './pages/login-screen/login-screen.component';
+import { PaddockViewComponent } from './pages/paddock-view/paddock-view.component';
+import { RanchViewComponent } from './pages/ranch-view/ranch-view.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },

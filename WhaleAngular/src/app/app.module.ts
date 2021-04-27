@@ -3,13 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FarmersMarketComponent } from './farmers-market/farmers-market.component';
-import { LoginScreenComponent } from './login-screen/login-screen.component';
-import { RanchViewComponent } from './ranch-view/ranch-view.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { PaddockViewComponent } from './paddock-view/paddock-view.component';
-import { AdminComponent } from './admin/admin.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { FarmersMarketComponent } from './pages/farmers-market/farmers-market.component';
+import { LoginScreenComponent } from './pages/login-screen/login-screen.component';
+import { RanchViewComponent } from './pages/ranch-view/ranch-view.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { PaddockViewComponent } from './pages/paddock-view/paddock-view.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     DashboardComponent,
     PaddockViewComponent,
     AdminComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
