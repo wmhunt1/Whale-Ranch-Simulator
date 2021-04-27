@@ -7,12 +7,12 @@ export interface Whale {
     health: number,
     hunger: number,
     personalityID: number,
-    personality: Personality,
+    //personality: Personality,
     speciesId: number,
-    species: Species,
+    //species: Species,
     age: number,
     length: number,
-    width: number,
+    weight: number,
     sex: string
 
 }
