@@ -13,6 +13,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { StartRanchComponent } from './pages/start-ranch/start-ranch.component';
+import { WhaleDetailComponent } from './components/whale-detail/whale-detail.component';
+import { WhalesComponent } from './components/whales/whales.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { StartRanchComponent } from './pages/start-ranch/start-ranch.component';
     NavbarComponent,
     FooterComponent,
     LogoComponent,
-    StartRanchComponent
+    StartRanchComponent,
+    WhaleDetailComponent,
+    WhalesComponent
   ],
   imports: [
     BrowserModule,

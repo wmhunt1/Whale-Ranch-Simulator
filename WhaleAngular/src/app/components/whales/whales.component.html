@@ -1,0 +1,11 @@
+<h2>My Whales</h2>
+
+<ul class="whales">
+  <li *ngFor="let whale of whales"
+    [class.selected]="whale === selectedWhale"
+    (click)="onSelect(whale)">
+    <span class="badge">{{whale.id}}</span> {{whale.name}}
+  </li>
+</ul>
+
+<app-whale-detail [whale]="selectedWhale"></app-whale-detail>
